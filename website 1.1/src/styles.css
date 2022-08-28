@@ -1,0 +1,218 @@
+section{
+
+   background-color:white;
+   font-family: 'Orbitron', sans-serif;
+   }
+
+.hero{
+    background-color: #01083a;
+    height: 100vh;
+    color:white;
+    font-size: 40px;
+}
+
+footer{
+    padding: 80px;
+    background-color: black;
+    color:white;
+    font-size: 40px;
+    text-align: center;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    width: 800px;
+    margin-left:10px;
+    text-align: left;
+    justify-content:space-evenly;
+    font-size:30px;
+}
+
+
+
+li{
+   
+    text-decoration: none;
+    font-size: 20px;
+}
+
+h1{
+    font-size: 90px;
+    margin: 0;
+    
+}
+
+h2{
+    font-size: 40px;
+}
+
+p{
+    margin: 0;
+}
+
+.subtext{
+    font-size:15px;
+    font-weight:300;
+}
+
+.hero-area{
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center
+    ;
+}
+
+.hero-text{
+    margin-left: 40px;
+    margin-bottom: 200px;
+    
+}
+
+.button{
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius:30px;
+    text-align: center;
+    background-color:coral;
+    font-size: 30px;
+    font-weight:300;
+    padding-top: 5px;
+}
+
+.button:hover{
+    background-color: grey;
+}
+
+.button:active{
+    background-color: yellow ;
+    color:black;
+}
+
+
+.socials {
+    height: 30px;
+}
+
+.logo{
+    size:40px;
+}
+
+.social{
+    margin: 20px;
+}
+
+.sub-section{
+    display:flex;
+    justify-content: space-around;
+    padding: 60px;
+}
+
+.headshot{
+    width: 300px;
+    height: 400px;
+    
+}
+
+.headshot-container{
+    display:flex;
+    align-items: center;
+}
+
+.Project-Container{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+@media only screen and (max-width: 1000px;){
+    .Project-Container{
+        display:flex;
+        flex-wrap: wr;
+    }
+}
+
+.Project-card{
+    width: 200px;
+    height:500px;
+    box-shadow:5px 5px 20px rgb(126, 126, 126);
+    margin:10px;
+    }
+
+.sub-section-alternative{
+   display: flex;
+   flex-direction: column;
+   text-align:center; 
+   padding:60px;
+}
+
+.project-image{
+    margin-top: 25px;
+    width:250px;
+    border-radius: 125px;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link{
+    text-decoration: none;
+    color: grey;
+}
+
+a{
+   text-decoration: none;
+   color:white; 
+}
+
+.hamburger{
+    display:none;
+    
+
+}
+.hamburger:focus{
+    outline: 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .hamburger{
+        display:block;
+        border: 0;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin-left: 20px;
+        align-self:flex-end;
+
+    }
+
+    ul{
+        display:none;
+        background-color: #020c57;
+        margin:0px;
+        left
+    }
+
+    ul.show{
+        display:block;
+    }
+
+    nav {
+        display:flex;
+        flex-direction: column-reverse;
+        background-color: #020c57;
+    }
+
+    .logo{
+         display: none;
+    }
+}
